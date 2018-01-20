@@ -1,9 +1,10 @@
+
 <?php 
 	include_once 'header.php'
  ?>
 	<section class="main-container">
 		<div class="main-wrapper">
-			<h2>Contacts</h2>
+			<h2>News</h2>
 
 			<?php 
 			 if(isset($_SESSION['u_id']))

@@ -104,26 +104,56 @@ a{
 	margin: 0 auto;
 	width: 1000px;
 }
+header img{
+	position: fixed;
+	height: 59px;
+	width: 120px;
+	top: 1px;
+	left: 2px;
+}
 header nav{
 	width: 100%;
 	height: 60px;
-	background-color: #fff;
+	background-color: black;
 }
 header nav ul{
 	float: left;
 }
 header nav ul li{
+	text-align: center;
 	list-style: none;
 	float: left;
+	display: block;
+	border:1px solid white;
+	color: white;
+	background-color: black;
+	padding-right: 30px;
+	width: 70px;
+	height: 59px;
 }
-header nav ul li a{
+header nav ul li:hover{background-color: grey;}
+header nav ul li .an{
 	font-family: arial;
 	font-size: 16px;
-	color: #111;
+	color: white;
+	width: 70px;
+	height: 59px;
+	display: block;
 	line-height: 63px;
 }
 header .nav-login{
 	float: right;
+	text-align: center;
+}
+header .nav-login .para{
+    color: white;
+    font-size: 23px;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+    top: 15px;
+    left: 220px;
+    padding-right: 10px;
 }
 header .nav-login form{
 	float: left;
@@ -144,15 +174,17 @@ header .nav-login form input{
 }
 header .nav-login form button{
 	float: left;
-	width: 60px;
-	height: 30px;
-	margin-right: 10px;
-	background-color: #f3f3f3;
-	border: none;
-	font-family: arial;
-	font-size: 14px;
-	color: #111;
-	cursor: pointer;
+    width: 110px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #209e20;
+    border: none;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-shadow: 5px 5px grey 0;
 }
 header .nav-login form button:hover{
  background-color: #ccc;
@@ -217,3 +249,15 @@ header .nav-login a{
 .signup-form button:hover{
 	background-color: #111
 	}
+header .nav-login form .new{
+	display: inline-block;
+	background-color: #3d3d79;
+	width: 100px;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	font-size: 20px;
+}
+header .nav-login form .new:hover{
+	background-color: #42d8b6;
+}
